@@ -3,7 +3,7 @@
 using namespace std;
 
 // A Sudoku board is a 9x9 grid of integers
-const int N = 9;
+const int N = 10;
 
 // Check if a number is valid in a given row, column, and box
 bool isValid(int board[N][N], int row, int col, int num) {
